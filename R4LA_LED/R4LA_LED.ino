@@ -1,4 +1,4 @@
-#include "FastLED.h"
+#include <FastLED.h>
 
 //LED Strip configs (number of leds on a "strip")
 #define NUM_LEDS 1050
