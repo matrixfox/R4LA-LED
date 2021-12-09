@@ -1,3 +1,4 @@
+#define FASTLED_INTERNAL
 #include <FastLED.h>
 
 //LED Strip configs (number of leds on a "strip")
