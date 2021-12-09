@@ -1,16 +1,16 @@
 #include <FastLED.h>
 
 //LED Strip configs (number of leds on a "strip")
-  #define NUM_LEDS 500
+  #define NUM_LEDS 1050
   #define SPINE_NUMLEDS 282
-  #define M1_TALED_NUMLEDS 50
-  #define M1_UALED_NUMLEDS 50
-  #define M2_TALED_NUMLEDS 50
-  #define M2_UALED_NUMLEDS 50
-  #define M3_TALED_NUMLEDS 50 
-  #define M3_UALED_NUMLEDS 50
-  #define M4_TALED_NUMLEDS 50
-  #define M4_UALED_NUMLEDS 50
+  #define M1_TALED_NUMLEDS 96
+  #define M1_UALED_NUMLEDS 96
+  #define M2_TALED_NUMLEDS 96
+  #define M2_UALED_NUMLEDS 96
+  #define M3_TALED_NUMLEDS 96 
+  #define M3_UALED_NUMLEDS 96
+  #define M4_TALED_NUMLEDS 96
+  #define M4_UALED_NUMLEDS 96
 
 //LED Signal Pins
   #define SPINE_LED_PIN 0
