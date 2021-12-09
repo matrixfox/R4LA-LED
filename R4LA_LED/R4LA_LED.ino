@@ -30,11 +30,6 @@ int pulse;
 //LED Setup
 CRGB leds[NUM_LEDS];
 
-#define BRIGHTNESS          25
-#define FRAMES_PER_SECOND  120
-#define LED_TYPE    WS2812B
-#define COLOR_ORDER GRB
-
 void setup() {
   // put your setup code here, to run once:
   //------------------Flight-Control-Pin------------------//
