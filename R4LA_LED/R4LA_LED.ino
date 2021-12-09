@@ -1,39 +1,39 @@
 #include <FastLED.h>
 
 //LED Strip configs (number of leds on a "strip")
-  #define NUM_LEDS 1050
-  #define SPINE_NUMLEDS 282
-  #define M1_TALED_NUMLEDS 96
-  #define M1_UALED_NUMLEDS 96
-  #define M2_TALED_NUMLEDS 96
-  #define M2_UALED_NUMLEDS 96
-  #define M3_TALED_NUMLEDS 96 
-  #define M3_UALED_NUMLEDS 96
-  #define M4_TALED_NUMLEDS 96
-  #define M4_UALED_NUMLEDS 96
+#define NUM_LEDS 1050
+#define SPINE_NUMLEDS 282
+#define M1_TALED_NUMLEDS 96
+#define M1_UALED_NUMLEDS 96
+#define M2_TALED_NUMLEDS 96
+#define M2_UALED_NUMLEDS 96
+#define M3_TALED_NUMLEDS 96 
+#define M3_UALED_NUMLEDS 96
+#define M4_TALED_NUMLEDS 96
+#define M4_UALED_NUMLEDS 96
 
 //LED Signal Pins
-  #define SPINE_LED_PIN 0
-  #define M1_TALED_PIN  8
-  #define M1_UALED_PIN  7
-  #define M2_TALED_PIN  1
-  #define M2_UALED_PIN  2
-  #define M3_TALED_PIN  4
-  #define M3_UALED_PIN  3
-  #define M4_TALED_PIN  6
-  #define M4_UALED_PIN  5
+#define SPINE_LED_PIN 0
+#define M1_TALED_PIN  8
+#define M1_UALED_PIN  7
+#define M2_TALED_PIN  1
+#define M2_UALED_PIN  2
+#define M3_TALED_PIN  4
+#define M3_UALED_PIN  3
+#define M4_TALED_PIN  6
+#define M4_UALED_PIN  5
 
 //IO Setup
-  #define RX_pin 10
-  int pulse;
+#define RX_pin 10
+int pulse;
 
 //LED Setup
-  CRGB leds[NUM_LEDS];
+CRGB leds[NUM_LEDS];
 
-  #define BRIGHTNESS          25
-  #define FRAMES_PER_SECOND  120
-  #define LED_TYPE    WS2812B
-  #define COLOR_ORDER GRB
+#define BRIGHTNESS          25
+#define FRAMES_PER_SECOND  120
+#define LED_TYPE    WS2812B
+#define COLOR_ORDER GRB
 
 void setup() {
   // put your setup code here, to run once:
