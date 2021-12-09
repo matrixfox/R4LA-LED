@@ -1,4 +1,4 @@
-#include <FastLED.h>
+#include "FastLED.h"
 
 //LED Strip configs (number of leds on a "strip")
 #define NUM_LEDS 1050
@@ -29,6 +29,10 @@ int pulse;
 
 //LED Setup
 CRGB leds[NUM_LEDS];
+
+#define BRIGHTNESS 25
+#define LED_TYPE WS2812B
+#define COLOR_ORDER GRB
 
 void setup() {
   // put your setup code here, to run once:
